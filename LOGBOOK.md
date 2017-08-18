@@ -1,4 +1,4 @@
-# Logbook
+# Logbook / Journal
 
 ## Background
 Last year I (Liam) competed by myself in the hobart regionals with an Arduino/NXT hybrid robot in secondary rescue. This robot was originally just a proof of concept, but ended up winning the competition as the code runnig on it was far superior to what other competitors had at the time. I didn't enter that robot in the state or national competition because I was busy with my AutonoMoose soccer team and meeting the tough deadlines that building a soccer robot from scratch had.
@@ -8,4 +8,3 @@ It was only about a week before the competition when I started building the robo
 
 ## After Regionals
 During this time all I had to do with the robot was try and fix all of the issues I had a regionals and also write the code for the open rescue end tile. With the end tile there is always difficulties because of the limit of how many sensors you can attach to and EV3 Brick. I knew that two light sensors and an ultrasonic sensor are a must, but I needed a sensor that could both regocnise the color of cans (victims), the red block, and direct the robot back out of the chemical spill for the extra points. In my time building RCJ open soccer robots, I'd used a sensor called the Pixy quite alot. A Pixy is basically an all in one camera and vision processing solution which makes tracking coloured objects about as simple as it could be. The big selling factor for the pixy is the interoperability that is has with many different platforms. Off the bat it supports LEGO, Arduino and Linux through various communication protocols like SPI, UART, I2C and of course USB. This meant that with little effort I had a sensor giving me the ability to track up to 10 different coloured objects at a time, more than enough for my needs. I'll be using the Pixy to track, the victim can, the red block and find the silver tape.
-
